@@ -1,8 +1,8 @@
 # URL Shortener with support for custom OG images
 
-A URL shortener using [Netlify's](https://www.netlify.com/?utm_source=github&utm_medium=findthatat-pnh&utm_campaign=devrel) speedy CDN-based [Redirects API](https://www.netlify.com/docs/redirects/?utm_source=github&utm_medium=findthatat-pnh&utm_campaign=devrel)
+A URL shortener using [Netlify's](https://www.netlify.com/) speedy CDN-based [Redirects API](https://www.netlify.com/docs/redirects/)
 
-Learn a little more about how this works [in the blog post](https://www.hawksworx.com/blog/find-that-at/)
+This is based off Phil Hawksworth's work as detailed [in the blog post](https://www.hawksworx.com/blog/find-that-at/)
 
 
 ## Show a custom OG image
@@ -23,7 +23,7 @@ You can use this repository to make your own url shortener with support for cust
 1. Create new short URLs by adding them to the `/_redirects` directory
 1. Optional: Gve your new site a custom domain. (Good luck coming up with a snappy sounding short domain name :) )
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/philhawksworth/shortener-with-custom-og&utm_source=github&utm_medium=findthatat-pnh&utm_campaign=devrel)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/philhawksworth/shortener-with-custom-og)
 
 
 ## Local testing and development
@@ -38,4 +38,4 @@ Netlify Dev provides a local Edge Function environment and can make your local b
 
 This project uses [Kent C Dodds' utility for conveniently adding rules](https://github.com/kentcdodds/netlify-shortener#shell-function) to the `_redirects` file. He has provided [some helpful instructions on setting that up](https://github.com/kentcdodds/netlify-shortener#shell-function).
 
-I also like to use [Raycast](https://raycast.com) to call that command for even easier creation of new URLs. ([Raycast command](https://gist.github.com/philhawksworth/b77d876e865ac190a6bb849913d4a744))
+You can also use [Raycast](https://raycast.com) to call that command for even easier creation of new URLs. ([Raycast command](https://gist.github.com/philhawksworth/b77d876e865ac190a6bb849913d4a744))
